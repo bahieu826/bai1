@@ -413,6 +413,8 @@ a {
 }
 .feedback-item{
   display: flex;
+  flex-shrink: 0;
+  width: 100%;
 }
 .feedback-item .avatar{
   width: 72px;
@@ -461,4 +463,8 @@ a {
 .feedback-item .dot.active{
   background-color: var(--primary-color);
   cursor: default;
+}
+.feedback-list{
+display: flex;
+overflow: hidden;
 }
