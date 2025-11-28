@@ -592,3 +592,64 @@ margin: 0 auto;
   background-color: #3932ef;
   margin-right: 4px;
  }
+ .footer{
+background: #2E2100;
+margin-top: 100px;
+height: 428px;
+width: 100%;
+padding-top: 100px;
+ }
+ .footer .main-content .row{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+
+ }
+ .footer .row .column{
+  width: 21%;
+  position: relative;
+ }
+ .footer .row .column:first-child{
+  width: 35%;
+ }
+ .footer .row .logo{
+  margin-top: 18px;
+ }
+.footer .row .column1 .socials{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30px;
+ max-width: 111px;
+
+}
+.footer .row .column ul{
+  list-style: none;
+padding-left: 0;
+}
+.footer .desc{
+margin-top: 18px;
+max-width: 267px;
+font-weight: 400;
+font-size: 1.4rem;
+line-height: 26px;
+color: #BFBCB2;
+}
+.footer .column .list{
+margin-top: 20px;
+}
+ .footer .list a{
+font-weight: 400;
+font-size: 1.4rem;
+line-height: 2.6rem;
+color: #BFBCB2;
+}
+.footer .tittle::after{
+ content: "";
+ position: absolute;
+ display: block;
+ background-color:#59554B;
+ width: 120px;
+ height: 1px;
+ opacity: 0.8;
+ top: 55px;
+}
